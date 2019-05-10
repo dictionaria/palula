@@ -1,11 +1,11 @@
-
 # Palula dictionary
 
 > by Henrik Liljegren
 
 This repository contains the data underlying the published version of the dictionary
-at [Dictionaria](https://dictionaria.clld.org/contributions/palula) as 
-[CLDF](https://cldf.clld.org) [Dictionary](cldf).
+at [Dictionaria](https://dictionaria.clld.org/contributions/palula) as [CLDF](https://cldf.clld.org) 
+[Dictionary](cldf) 
+[![Build Status](https://travis-ci.org/dictionaria/palula.svg?branch=master)](https://travis-ci.org/dictionaria/palula)
 
 Releases of this repository are archived with and accessible through 
 [ZENODO](https://zenodo.org/communities/dictionaria) and the latest release

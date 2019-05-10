@@ -6,6 +6,9 @@
         }
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Dictionary",
+    "dc:creator": "Henrik Liljegren",
+    "dc:identifier": "https://dictionaria.clld.org/contributions/palula",
+    "dc:title": "Palula dictionary",
     "dialect": {
         "commentPrefix": null
     },
@@ -324,8 +327,5 @@
             },
             "url": "media.csv"
         }
-    ],
-    "dc:creator": "Henrik Liljegren",
-    "dc:title": "Palula dictionary",
-    "dc:identifier": "https://dictionaria.clld.org/contributions/palula"
+    ]
 }
