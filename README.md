@@ -92,6 +92,7 @@ The Palula consonant inventory (Table 1) has five basic places of articulation (
       <td></td>
       <td>q</td>
     </tr>
+  <tr>
     <td>pʰ</td>
     <td><i>(ph)</i></td>
     <td>tʰ</td>
@@ -103,8 +104,7 @@ The Palula consonant inventory (Table 1) has five basic places of articulation (
     <td>kʰ</td>
     <td><i>(kh)</i></td>
     <td></td>
-  </tbody></table>
-
+    </tr>
   <tr>
     <td>b</td>
     <td></td>
@@ -230,7 +230,8 @@ The Palula consonant inventory (Table 1) has five basic places of articulation (
     <td></td>
     <td></td>
   </tr>
-
+</tbody>
+</table>
   
 
 There are ten phonemic vowels (Table 2), comprising five basic qualities, each having a long and a short counterpart (the former represented by a doubled vowel in the Roman representation).
@@ -252,6 +253,7 @@ There are ten phonemic vowels (Table 2), comprising five basic qualities, each h
       <td>uː <i>(uu)</i></td>
       <td>u</td>
     </tr>
+    <tr>
     <td></td>
     <td></td>
     <td>eː <i>(ee)</i></td>
@@ -262,8 +264,7 @@ There are ten phonemic vowels (Table 2), comprising five basic qualities, each h
     <td>o</td>
     <td></td>
     <td></td>
-  </tbody></table>
-
+    </tr>
   <tr>
     <td></td>
     <td></td>
@@ -276,6 +277,7 @@ There are ten phonemic vowels (Table 2), comprising five basic qualities, each h
     <td></td>
     <td></td>
   </tr>
+  </tbody></table>
 
   
 
