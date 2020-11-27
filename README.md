@@ -5,7 +5,7 @@
 This repository contains the data underlying the published version of the dictionary
 at [Dictionaria](https://dictionaria.clld.org/contributions/palula) as [CLDF](https://cldf.clld.org) 
 [Dictionary](cldf) 
-[![Build Status](https://travis-ci.org/dictionaria/palula.svg?branch=master)](https://travis-ci.org/dictionaria/palula)
+[![CLDF validation](https://github.com/dictionaria/palula/workflows/CLDF-validation/badge.svg)](https://github.com/dictionaria/palula/actions?query=workflow%3ACLDF-validation)
 
 Releases of this repository are archived with and accessible through 
 [ZENODO](https://zenodo.org/communities/dictionaria) and the latest release
