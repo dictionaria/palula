@@ -5,10 +5,39 @@
             "@language": "en"
         }
     ],
+    "dc:bibliographicCitation": "Liljegren, Henrik. 2019. Palula dictionary. Dictionaria 3. 1-2700 (Available online at https://dictionaria.clld.org/contributions/palula)",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Dictionary",
     "dc:creator": "Henrik Liljegren",
     "dc:identifier": "https://dictionaria.clld.org/contributions/palula",
+    "dc:license": "CC-BY 4.0",
     "dc:title": "Palula dictionary",
+    "dcat:accessURL": "git@github.com:dictionaria/palula",
+    "prov:wasDerivedFrom": [
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "git@github.com:dictionaria/palula",
+            "dc:created": "v1.0-3-g22e8e20"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "dc:created": "v4.3-treedb-fixes"
+        }
+    ],
+    "prov:wasGeneratedBy": [
+        {
+            "dc:title": "python",
+            "dc:description": "3.8.5"
+        },
+        {
+            "dc:title": "python-packages",
+            "dc:relation": "requirements.txt"
+        }
+    ],
+    "rdf:ID": "palula",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
@@ -52,66 +81,63 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Homonym"
-                    },
-                    {
-                        "datatype": "string",
                         "name": "IndoAryan_Proto_Form",
-                        "titles": "Indo-Aryan proto-Form"
+                        "titles": "Indo-Aryan Proto-Form"
                     },
                     {
                         "datatype": "string",
-                        "name": "Inflection_Class",
-                        "titles": "Inflection"
-                    },
-                    {
-                        "datatype": "string",
-                        "separator": " ; ",
-                        "name": "Main_Entry",
-                        "titles": "main entry"
+                        "name": "Inflection_Class"
                     },
                     {
                         "datatype": "string",
                         "separator": " ; ",
-                        "name": "Media_IDs"
+                        "name": "Main_Entry"
                     },
                     {
                         "datatype": "string",
                         "name": "Morphemic_Form",
-                        "titles": "morphemic form"
+                        "titles": "Morphemic Form"
                     },
                     {
                         "datatype": "string",
-                        "name": "Origin",
-                        "titles": "Origin"
+                        "name": "Origin"
                     },
                     {
                         "datatype": "string",
                         "name": "Phonetic",
-                        "titles": "phonetic form"
+                        "titles": "Phonetic Form"
                     },
                     {
                         "datatype": "string",
-                        "name": "Restrictions",
-                        "titles": "Restrictions"
+                        "name": "Restrictions"
                     },
                     {
                         "datatype": "string",
-                        "name": "Usage",
-                        "titles": "Usage"
+                        "name": "Usage"
                     },
                     {
                         "datatype": "string",
                         "name": "Variant_Form",
-                        "titles": "Variant"
+                        "titles": "Variant Form(s)"
                     },
                     {
                         "datatype": "string",
                         "name": "Vernacular",
-                        "titles": "vernacular form"
+                        "titles": "Vernacular Form"
                     }
                 ],
                 "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
                     {
                         "columnReference": [
                             "Entry_IDs"
@@ -129,28 +155,6 @@
                         ],
                         "reference": {
                             "resource": "entries.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    },
-                    {
-                        "columnReference": [
-                            "Media_IDs"
-                        ],
-                        "reference": {
-                            "resource": "media.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    },
-                    {
-                        "columnReference": [
-                            "Language_ID"
-                        ],
-                        "reference": {
-                            "resource": "languages.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -188,11 +192,6 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#entryReference",
                         "required": true,
                         "name": "Entry_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "separator": " ; ",
-                        "name": "Media_IDs"
                     }
                 ],
                 "foreignKeys": [
@@ -202,17 +201,6 @@
                         ],
                         "reference": {
                             "resource": "entries.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    },
-                    {
-                        "columnReference": [
-                            "Media_IDs"
-                        ],
-                        "reference": {
-                            "resource": "media.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -268,7 +256,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#translatedText",
-                        "required": true,
+                        "required": false,
                         "name": "Translated_Text"
                     },
                     {
@@ -285,13 +273,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Corpus_Reference",
-                        "titles": "corpus reference"
-                    },
-                    {
-                        "datatype": "string",
-                        "separator": " ; ",
-                        "name": "Media_IDs"
+                        "name": "Corpus_Reference"
                     },
                     {
                         "datatype": "string",
@@ -300,17 +282,6 @@
                     }
                 ],
                 "foreignKeys": [
-                    {
-                        "columnReference": [
-                            "Media_IDs"
-                        ],
-                        "reference": {
-                            "resource": "media.csv",
-                            "columnReference": [
-                                "ID"
-                            ]
-                        }
-                    },
                     {
                         "columnReference": [
                             "Language_ID"
@@ -332,6 +303,17 @@
                                 "ID"
                             ]
                         }
+                    },
+                    {
+                        "columnReference": [
+                            "Sense_IDs"
+                        ],
+                        "reference": {
+                            "resource": "senses.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
                     }
                 ],
                 "primaryKey": [
@@ -345,23 +327,57 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "string",
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },
                     {
                         "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
                         "name": "Language_ID"
                     },
                     {
                         "datatype": "string",
                         "name": "Filename"
+                    },
+                    {
+                        "datatype": "anyURI",
+                        "name": "URL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "mimetype"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "size"
                     }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
                 ]
             },
             "url": "media.csv"
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:extent": 1,
             "tableSchema": {
                 "columns": [
                     {

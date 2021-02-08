@@ -1,0 +1,45 @@
+{
+    "authors": ["Henrik Liljegren"],
+    "language": {
+        "name": "Palula",
+        "isocode": "phl",
+        "glottocode": "phal1254"
+    },
+    "doi": "10.5281/zenodo.3066952",
+    "date_published": "2019",
+    "number": 3,
+    "properties": {
+        "title": "Palula dictionary",
+        "entry_id": "lx",
+        "entry_map": {
+            "gv": "Vernacular",
+            "ph": "Phonetic",
+            "mr": "Morphemic_Form",
+            "et": "IndoAryan_Proto_Form",
+            "bw": "Origin",
+            "oe": "Restrictions",
+            "ue": "Usage",
+            "pd": "Inflection_Class"
+        },
+        "entry_custom_order": [
+            "Vernacular",
+            "Phonetic",
+            "Morphemic_Form",
+            "Inflection_Class",
+            "IndoAryan_Proto_Form",
+            "Origin",
+            "Variant_Form",
+            "Usage",
+            "Restrictions"
+        ],
+        "sense_map": {},
+        "example_map": {},
+        "labels": {
+            "gv": "Vernacular Form",
+            "ph": "Phonetic Form",
+            "mr": "Morphemic Form",
+            "et": "Indo-Aryan Proto-Form"
+        },
+        "custom_fields": ["Vernacular Form"]
+    }
+}
