@@ -17,7 +17,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:dictionaria/palula",
-            "dc:created": "v1.0-3-g22e8e20"
+            "dc:created": "v1.0-9-g7088274"
         },
         {
             "rdf:type": "prov:Entity",
