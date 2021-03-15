@@ -3,11 +3,11 @@
 > by Henrik Liljegren
 
 This repository contains the data underlying the published version of the dictionary
-at [Dictionaria](https://dictionaria.clld.org/contributions/palula) as [CLDF](https://cldf.clld.org) 
-[Dictionary](cldf) 
+at [Dictionaria](https://dictionaria.clld.org/contributions/palula) as [CLDF](https://cldf.clld.org)
+[Dictionary](cldf)
 [![CLDF validation](https://github.com/dictionaria/palula/workflows/CLDF-validation/badge.svg)](https://github.com/dictionaria/palula/actions?query=workflow%3ACLDF-validation)
 
-Releases of this repository are archived with and accessible through 
+Releases of this repository are archived with and accessible through
 [ZENODO](https://zenodo.org/communities/dictionaria) and the latest release
 is published on the [Dictionaria website](https://dictionaria.clld.org).
 
@@ -61,8 +61,8 @@ Sher Haider Khan, a schoolteacher from Ashret and older brother of Naseem Haider
 
 A few other people spent considerable time with me, contributing in important ways to my research, understanding and ability to speak Palula: Saeed Ahmad, Kalkatak; Atahullah, Biori; Sardar Hayat, Ashret; (late) Said Habib, Ashret; Sher Habib, Ashret; and Munir Ahmad, Ashret.
 
-The dictionary is primarily based on textual data, i.e. recordings with numerous people in the Palula community carried out by myself and my local colleagues (see above) from 1998 and onward. Those recordings are of different length and have been transcribed, annotated and analysed with varying accuracy and detail. In all, the novel text material thus produced and used for this purpose consists of <a data-toggle="tooltip" href="#" title="Work is underway to make a representative collection of voice recordings
-and accompanying annotations, such as those occurring in Liljegren &amp; Haider (2011), more widely available.">69 texts from 41 speakers/writers</a>. Most of the material recorded and transcribed are oral narratives, but also other genres are represented. A few texts in the material were written, such as the ones occurring in a published collection of stories produced by twelve Palula writers during a creative writing workshop arranged in 2004 (Haider 2006a), most of them afterwards read out loud by the authors and voice recorded. I have also made use of educational material produced in recent years by a group in the community running a mother tongue-based multilingual education programme as well as a collection of Palula proverbs and sayings (Haider 2012a). However, even those written texts and sources represent an oral rather than a literary style, as there is no long tradition of writing Palula. Apart from drawing from textual material, I made use of wordlists, questionnaires, elicited paradigms and various notes from the field, including brainstorming sessions, metalinguistic discussions, language learning sessions, spontaneous utterances noted down, and expressions volunteered by different speakers in the community throughout the duration of my field stays. When including example sentences to illustrate the use of individual lexical items, the focus was on spontaneously occurring speech or frequently used sayings. But other types of data have occasionally been put to use, and sentences drawn from longer discourses have sometimes been slightly edited, in the latter case checked for acceptability with native speakers (Naseem Haider in particular). For a complete list of sources, see Example sources.
+The dictionary is primarily based on textual data, i.e. recordings with numerous people in the Palula community carried out by myself and my local colleagues (see above) from 1998 and onward. Those recordings are of different length and have been transcribed, annotated and analysed with varying accuracy and detail. In all, the novel text material thus produced and used for this purpose consists of 69 texts from 41 speakers/writers.<a data-toggle="tooltip" href="#ref1" id="1" title="Work is underway to make a representative collection of voice recordings
+and accompanying annotations, such as those occurring in Liljegren &amp; Haider (2011), more widely available."><sup>1</sup></a> Most of the material recorded and transcribed are oral narratives, but also other genres are represented. A few texts in the material were written, such as the ones occurring in a published collection of stories produced by twelve Palula writers during a creative writing workshop arranged in 2004 (Haider 2006a), most of them afterwards read out loud by the authors and voice recorded. I have also made use of educational material produced in recent years by a group in the community running a mother tongue-based multilingual education programme as well as a collection of Palula proverbs and sayings (Haider 2012a). However, even those written texts and sources represent an oral rather than a literary style, as there is no long tradition of writing Palula. Apart from drawing from textual material, I made use of wordlists, questionnaires, elicited paradigms and various notes from the field, including brainstorming sessions, metalinguistic discussions, language learning sessions, spontaneous utterances noted down, and expressions volunteered by different speakers in the community throughout the duration of my field stays. When including example sentences to illustrate the use of individual lexical items, the focus was on spontaneously occurring speech or frequently used sayings. But other types of data have occasionally been put to use, and sentences drawn from longer discourses have sometimes been slightly edited, in the latter case checked for acceptability with native speakers (Naseem Haider in particular). For a complete list of sources, see Example sources.
 
 <h2 id="profile">Linguistic profile of Palula</h2>
 
@@ -1436,7 +1436,7 @@ Liljegren, Henrik. 2010. Where have all the verbs gone? On verb stretching and s
 
 Liljegren, Henrik. 2013. Notes on Kalkoti: A Shina Language with Strong Kohistani Influences. _Linguistic Discovery_ 11(1). 129–160. doi:10.1349/PS1.1537-0852.A.423.
 
-Liljegren, Henrik. 2016. _A grammar of Palula_ (Studies in Diversity Linguistics 8). Berlin: Language Science Press. [None](http://langsci-press.org/catalog/book/82)
+Liljegren, Henrik. 2016. _A grammar of Palula_ (Studies in Diversity Linguistics 8). Berlin: Language Science Press. [None](https://langsci-press.org/catalog/book/82)
 
 Liljegren, Henrik &amp; Naseem Haider. 2009. Palula. _Journal of the International Phonetic Association_ 39(03). 381–386. doi:10.1017/S0025100309990193.
 
@@ -1454,9 +1454,13 @@ Raverty, Henry G. 1982. _A dictionary of the Pukhto, Pushto, or language of the 
 
 Steingass, Francis J. 1999. A comprehensive Persian-English dictionary, including the Arabic words and phrases to be met with in Persian literature. Lahore: Sang-e-Meel Publications.
 
-Strand, Richard F. 1997. Nuristân: Hidden land of the Hindu Kush. http://nuristan.info (18 December, 2018).
+Strand, Richard F. 1997. Nuristân: Hidden land of the Hindu Kush. https://nuristan.info (18 December, 2018).
 
 Strand, Richard F. 2001. The tongues of Peristân. Appendix 1. In Alberto Cacopardo &amp; Augusto Cacopardo (eds.), _Gates of Peristan: History, Religionand Society in the Hindu Kush_ (Reports and Memoirs 5), 251–257. Rome: Istituto Italiano per l’Africa e l’Oriente (IsIAO).
 
 Turner, Ralph Lilley. 1966. _A comparative dictionary of the Indo-Aryan languages_. Oxford: Oxford University Press.
+
+
+<h2 id="footnotes">Footnotes</h2>
+<a href="#1" id="ref1"><sup>1</sup></a> Work is underway to make a representative collection of voice recordings and accompanying annotations, such as those occurring in Liljegren &amp; Haider (2011), more widely available.
 

@@ -1,0 +1,29 @@
+{
+    "title": "dictionaria/palula: Palula dictionary",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Dictionary",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Henrik Liljegren"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "cldf-datasets"
+        },
+        {
+            "identifier": "clld"
+        },
+        {
+            "identifier": "dictionaria"
+        }
+    ],
+    "upload_type": "dataset",
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "description": "Liljegren, Henrik. 2019. Palula dictionary. Dictionaria 3. 1-2700 (Available online at https://dictionaria.clld.org/contributions/palula)"
+}
